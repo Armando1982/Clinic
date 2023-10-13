@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.7.1" />
+    <PackageReference Include="MediatR" Version="12.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clinic.Application.Dtos\Clinic.Application.Dtos.csproj" />
+    <ProjectReference Include="..\Clinic.Application.Interface\Clinic.Application.Interface.csproj" />
+    <ProjectReference Include="..\Clinic.Domain\Clinic.Domain.csproj" />
+    <ProjectReference Include="..\Clinic.Utilities\Clinic.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

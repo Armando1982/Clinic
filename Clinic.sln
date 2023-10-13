@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{1C4979F0-605F-4951-A237-5EE345443922}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E7981FBF-CE4D-413E-8EA9-0D4805D78501}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{05A0D2A8-3106-4892-95EB-4355FBFA8542}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{9D7F2050-9B96-41B6-8828-8BBDA9BC04E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{2F209068-F85E-4E71-8B87-9A3A5B3E8629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Domain", "src\Clinic.Domain\Clinic.Domain.csproj", "{2884A206-E1FF-4912-8E45-0C3AF0442386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Insfrastructure", "src\Clinic.Insfrastructure\Clinic.Insfrastructure.csproj", "{EE5D6EC0-DCCC-4AEE-89F2-37914E06CBAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Pesistence", "src\Clinic.Pesistence\Clinic.Pesistence.csproj", "{FB0320A9-1C21-45DA-87C6-52486D040F90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Application.Dtos", "src\Clinic.Application.Dtos\Clinic.Application.Dtos.csproj", "{3F717E06-97C6-42CC-A24B-0AAEB1B6CA1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Application.Interface", "src\Clinic.Application.Interface\Clinic.Application.Interface.csproj", "{2FCAD002-7809-4CC0-A8D1-C49A7B812C1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Application.UseCase", "src\Clinic.Application.UseCase\Clinic.Application.UseCase.csproj", "{5CACC8D9-687E-4162-944E-D5761772F0EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.API", "src\Clinic.API\Clinic.API.csproj", "{8833E2A6-C0A7-4159-A472-8A2D47E0D9A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinic.Utilities", "src\Clinic.Utilities\Clinic.Utilities.csproj", "{CDF1EA44-E7D7-4FDD-9C81-BA4CBAA28846}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2884A206-E1FF-4912-8E45-0C3AF0442386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2884A206-E1FF-4912-8E45-0C3AF0442386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2884A206-E1FF-4912-8E45-0C3AF0442386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2884A206-E1FF-4912-8E45-0C3AF0442386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE5D6EC0-DCCC-4AEE-89F2-37914E06CBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE5D6EC0-DCCC-4AEE-89F2-37914E06CBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE5D6EC0-DCCC-4AEE-89F2-37914E06CBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE5D6EC0-DCCC-4AEE-89F2-37914E06CBAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB0320A9-1C21-45DA-87C6-52486D040F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB0320A9-1C21-45DA-87C6-52486D040F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB0320A9-1C21-45DA-87C6-52486D040F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB0320A9-1C21-45DA-87C6-52486D040F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F717E06-97C6-42CC-A24B-0AAEB1B6CA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F717E06-97C6-42CC-A24B-0AAEB1B6CA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F717E06-97C6-42CC-A24B-0AAEB1B6CA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F717E06-97C6-42CC-A24B-0AAEB1B6CA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FCAD002-7809-4CC0-A8D1-C49A7B812C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FCAD002-7809-4CC0-A8D1-C49A7B812C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FCAD002-7809-4CC0-A8D1-C49A7B812C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FCAD002-7809-4CC0-A8D1-C49A7B812C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CACC8D9-687E-4162-944E-D5761772F0EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CACC8D9-687E-4162-944E-D5761772F0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CACC8D9-687E-4162-944E-D5761772F0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CACC8D9-687E-4162-944E-D5761772F0EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8833E2A6-C0A7-4159-A472-8A2D47E0D9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8833E2A6-C0A7-4159-A472-8A2D47E0D9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8833E2A6-C0A7-4159-A472-8A2D47E0D9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8833E2A6-C0A7-4159-A472-8A2D47E0D9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF1EA44-E7D7-4FDD-9C81-BA4CBAA28846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF1EA44-E7D7-4FDD-9C81-BA4CBAA28846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF1EA44-E7D7-4FDD-9C81-BA4CBAA28846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF1EA44-E7D7-4FDD-9C81-BA4CBAA28846}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2884A206-E1FF-4912-8E45-0C3AF0442386} = {E7981FBF-CE4D-413E-8EA9-0D4805D78501}
+		{EE5D6EC0-DCCC-4AEE-89F2-37914E06CBAF} = {05A0D2A8-3106-4892-95EB-4355FBFA8542}
+		{FB0320A9-1C21-45DA-87C6-52486D040F90} = {05A0D2A8-3106-4892-95EB-4355FBFA8542}
+		{3F717E06-97C6-42CC-A24B-0AAEB1B6CA1B} = {1C4979F0-605F-4951-A237-5EE345443922}
+		{2FCAD002-7809-4CC0-A8D1-C49A7B812C1E} = {1C4979F0-605F-4951-A237-5EE345443922}
+		{5CACC8D9-687E-4162-944E-D5761772F0EA} = {1C4979F0-605F-4951-A237-5EE345443922}
+		{8833E2A6-C0A7-4159-A472-8A2D47E0D9A6} = {2F209068-F85E-4E71-8B87-9A3A5B3E8629}
+		{CDF1EA44-E7D7-4FDD-9C81-BA4CBAA28846} = {9D7F2050-9B96-41B6-8828-8BBDA9BC04E5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {441FB7FE-5EA6-4074-AF8E-CCB95E60666D}
+	EndGlobalSection
+EndGlobal
